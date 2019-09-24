@@ -1,0 +1,38 @@
+{
+  "name": "eslint-config-rmos",
+  "version": "0.1.0",
+  "description": "React Manual of Style",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react manual of style",
+    "rmos",
+    "eslint"
+  ],
+  "author": "bahtou",
+  "license": "MIT",
+  "dependencies": {
+    "eslint-config-jsmos": "^0.2.1",
+    "object.assign": "^4.1.0",
+    "object.entries": "^1.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.4.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.14.3",
+    "eslint-plugin-react-hooks": "^1.7.0"
+  },
+  "peerDependencies": {
+    "eslint": "^5.16.0 || ^6.1.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.14.3",
+    "eslint-plugin-react-hooks": "^1.7.0"
+  },
+  "engines": {
+    "node": ">= 6"
+  }
+}
